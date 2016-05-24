@@ -1,0 +1,17 @@
+{
+  "name": "decision-support-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Merz <jrmerz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "osrm": "^5.1.1",
+    "polyline-encoded": "0.0.8"
+  }
+}
