@@ -1,4 +1,4 @@
 {
   port : 5000,
-  data : '/Users/jrmerz/dev/cstars/AHB/decision-support-tool/ahb-decision-support-app/transportation/osrm/data/ahb.osrm'
+  data : '/Users/jrmerz/dev/cstars/AHB/decision-support-tool/osrm-transportation-server/data/merged/merged.osrm'
 }
