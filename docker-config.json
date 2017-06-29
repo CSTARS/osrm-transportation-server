@@ -1,0 +1,4 @@
+{
+  port : 5000,
+  data : '/osrm-transportation-server/data/merged/merged.osrm'
+}
