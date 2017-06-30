@@ -3,6 +3,8 @@ version: '2'
 services:
     server:
      build: .
+     ports:
+       - 8000:8000
      volumes:
        - ../../:/osrm-transportation-server
      command: bash -c 'cd /osrm-transportation-server && npm install && tail -f /dev/null'
