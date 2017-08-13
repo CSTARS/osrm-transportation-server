@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    server:
+     build: .
+     ports:
+       - 5000:5000
+     volumes:
+       - ../../:/osrm-transportation-server
+     command: bash -c 'cd /osrm-transportation-server && npm install && node index.js docker-config.json'
