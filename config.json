@@ -1,4 +1,0 @@
-{
-  port : 5000,
-  data : '/Users/jrmerz/dev/cstars/AHB/decision-support-tool/osrm-transportation-server/data/merged/merged.osrm'
-}

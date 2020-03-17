@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
-var config = require('./lib/config')();
+var config = require('./lib/config');
 
 app.use(bodyParser.json({}));
 
